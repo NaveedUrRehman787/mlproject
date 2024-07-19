@@ -107,7 +107,3 @@ class DataTransformation:
         except Exception as e:
             raise CustomException(e,sys)
             
-            
-# if __name__ == '__main__':
-#     data_transformation = DataTransformation()
-#     data_transformation.apply_transformers()
